@@ -32,6 +32,7 @@ ul {
 h1 {
   margin: 0;
   font-size: 50px;
+  margin-top: 20px;
 }
 
 .navBar {
@@ -55,10 +56,11 @@ h1 {
 }
 
 .myImg {
-  width: 150px;
-  height: 150px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  margin-top: 20px;
 }
 
 .socialFoot {
@@ -69,7 +71,7 @@ h1 {
 
 .socialFoot li {
   width: 50px;
-  height: 45px;
+  height: 50px;
   border: 1px solid white;
   border-radius: 5px;
   text-align: center;
@@ -80,4 +82,58 @@ h1 {
 
 .socialFoot a {
   font-size: 40px;
+}
+
+.formDiv {
+  width: 50%;
+  height: 590px;
+  margin: auto;
+  font-size: 14px;
+  font-family: 'Syncopate', sans-serif;
+}
+
+form {
+  margin-top: 80px;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  width: 560px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 12px;
+  font-family: 'Syncopate', sans-serif;
+  outline: none;
+}
+
+label {
+  margin-top: 10px;
+  color: black;
+}
+
+textarea {
+  width: 560px;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  outline: none;
+  font-size: 14px;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.subBtn {
+  width: 80px;
+  height: 40px;
+  font-size: 12px;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 0;
+  font-family: 'Syncopate', sans-serif;
 }
