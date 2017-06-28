@@ -167,12 +167,14 @@ textarea {
   height: 280px;
   margin-top: 10px;
   margin-left: 5px;
+  border-radius: 5px;
 }
 
 .projectsDiv li {
   width: 700px;
   height: 300px;
   border: 1px solid white;
+  border-radius: 5px;
 }
 
 .projects {
@@ -204,3 +206,12 @@ textarea {
 .projTwo {
   margin-bottom: 10px;
 }
+
+.mainDiv {
+  width: 98%;
+  margin: auto;
+  font-family: 'Syncopate', sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
