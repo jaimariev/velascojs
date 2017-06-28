@@ -2,6 +2,7 @@ html {
   width: 100%;
   height: auto;
   box-sizing: border-box;
+  background: #68829E;
   font-family: 'Vast Shadow', cursive;
   color: white;
 }
@@ -85,15 +86,22 @@ h1 {
 }
 
 .formDiv {
-  width: 50%;
-  height: 590px;
+  width: 40%;
   margin: auto;
   font-size: 14px;
   font-family: 'Syncopate', sans-serif;
+  font-weight: bold;
+}
+
+.contact {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 form {
-  margin-top: 80px;
+  margin-top: 32px;
+  margin-bottom: 30px;
 }
 
 input {
@@ -112,7 +120,6 @@ input {
 
 label {
   margin-top: 10px;
-  color: black;
 }
 
 textarea {
@@ -130,10 +137,70 @@ textarea {
 .subBtn {
   width: 80px;
   height: 40px;
+  line-height: 40px;
   font-size: 12px;
-  border: 1px solid black;
-  background-color: black;
+  border: 1px solid #00293C;
+  background-color: #00293C;
   color: white;
   padding: 0;
   font-family: 'Syncopate', sans-serif;
+}
+
+.subBtn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.number {
+  font-size: 14px;
+}
+
+.projectsDiv {
+  width: 98%;
+  margin: auto;
+  font-family: 'Syncopate', sans-serif;
+}
+
+.projectsDiv img {
+  width: 320px;
+  height: 280px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.projectsDiv li {
+  width: 700px;
+  height: 300px;
+  border: 1px solid white;
+}
+
+.projects {
+  margin: 15px 0 15px 0;
+}
+
+.projOne {
+  margin-bottom: 10px;
+}
+
+.projInfo {
+  width: 330px;
+  margin-left: 5px;
+  float: right;
+}
+
+.projInfo p {
+  font-weight: bold;
+}
+
+.projInfo a {
+  font-size: 14px;
+}
+
+.projInfo a:hover {
+  text-decoration: underline;
+}
+
+.projTwo {
+  margin-bottom: 10px;
 }
