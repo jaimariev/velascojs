@@ -2,6 +2,7 @@
   "name": "velascojs",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://jaimariev.github.io/my-app",
   "dependencies": {
     "axios": "^0.16.0",
     "gh-pages": "^1.0.0",
@@ -31,5 +32,4 @@
   "description": "",
   "author": "",
   "license": "ISC",
-  "homepage": "https://jaimariev.github.io/my-app"
 }
