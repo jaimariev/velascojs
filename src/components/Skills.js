@@ -48,6 +48,7 @@ export default React.createClass({
               <li>Postgres</li>
               <li>Java</li>
               <li>Git</li>
+              <li>GitHub</li>
             </ul>
             <h2>Other Skills</h2>
             <ul>
