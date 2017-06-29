@@ -36,7 +36,7 @@ export default React.createClass({
         </ul>
         <ul className="projTwo">
           <li>
-            <a href="ironfoos.herokuapp.com" target="blank"><img src={IronFoos} alt="hackathon project" /></a>
+            <a href="http://ironfoos.herokuapp.com" target="blank"><img src={IronFoos} alt="hackathon project" /></a>
             <div className="projInfo">
               <h3>IronFoos - Hackathon</h3>
               <p>Summary : </p>

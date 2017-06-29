@@ -26,8 +26,8 @@ ul {
   padding: 0;
   margin: 0;
   list-style: none;
-  display: flex;
-  justify-content: space-around;
+/*  display: flex;
+  justify-content: space-around;*/
 }
 
 h1 {
@@ -40,6 +40,8 @@ h1 {
   background: #00293C;
   height: 70px;
   line-height: 70px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navBar a:hover {
@@ -68,6 +70,8 @@ h1 {
   width: 100%;
   height: auto;
   background: #00293C;
+  display: flex;
+  justify-content: space-around;
 }
 
 .socialFoot li {
@@ -183,6 +187,8 @@ textarea {
 
 .projOne {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .projInfo {
@@ -205,6 +211,8 @@ textarea {
 
 .projTwo {
   margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .mainDiv {
@@ -231,4 +239,9 @@ textarea {
 
 .expDiv {
   height: 380px;
+}
+
+.resume:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
