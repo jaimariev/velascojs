@@ -13,7 +13,7 @@ export default React.createClass({
         <div>
           <ul className="navBar">
             <li><a href="/">Home</a></li>
-            <li><a href="skills">Education and Skills</a></li>
+            <li><a href="skills">Experience & Skills</a></li>
             <li><a href="projects">Projects</a></li>
             <li><a href="contactme">Contact Me</a></li>
           </ul>

@@ -215,3 +215,20 @@ textarea {
   justify-content: space-between;
 }
 
+.eduDiv {
+  height: 250px;
+}
+
+.mainDiv p {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.mainDiv span {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.expDiv {
+  height: 380px;
+}
